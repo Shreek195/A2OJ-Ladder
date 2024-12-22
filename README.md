@@ -1,4 +1,4 @@
-# A2OJ-Ladder-11 🎉
+# A2OJ-Ladder 🎉
 
 ## Codeforces Rating Categories
 
