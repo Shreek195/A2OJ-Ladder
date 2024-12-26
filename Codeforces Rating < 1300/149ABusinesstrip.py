@@ -17,4 +17,5 @@ def trip(k, months):
 if __name__ == "__main__":
     k = int(input())
     months = list(map(int, input().rstrip().split()))
-    print(trip(k, months))
+    result = trip(k, months)
+    print(result)
