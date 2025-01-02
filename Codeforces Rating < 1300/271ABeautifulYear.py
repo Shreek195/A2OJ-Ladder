@@ -6,9 +6,10 @@ def beautifulYear(year):
         d = (year // 1000) % 10
 
         if len({a, b, c, d}) == 4: 
-            return year
+            print(year)
+            return
         year += 1
 
 if __name__ == "__main__":
     y = int(input())
-    print(beautifulYear(y + 1))
+    beautifulYear(y + 1)
