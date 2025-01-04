@@ -11,9 +11,9 @@ def general(n, nums):
     else:
         steps = maxIdx + (n-1 - minIdx)
 
-    print(steps)
+    return steps
         
 if __name__ == "__main__":
     n = int(input())
     nums = list(map(int, input().rstrip().split()))
-    general(n, nums)
+    print(general(n, nums))
