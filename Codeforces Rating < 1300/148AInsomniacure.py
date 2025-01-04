@@ -3,7 +3,7 @@ def cure(k, l, m, n, d):
     for i in range(1, d+1):
         if i%k == 0 or i%l == 0 or i%m == 0 or i%n == 0:
             t += 1
-    return t
+    print(t)
 
 if __name__ == "__main__":
     k = int(input())
@@ -11,4 +11,4 @@ if __name__ == "__main__":
     m = int(input())
     n = int(input())
     d = int(input())
-    print(cure(k, l, m, n, d))
+    cure(k, l, m, n, d)
